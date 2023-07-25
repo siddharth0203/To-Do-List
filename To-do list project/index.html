@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This link is for different fonts that we are going to use. -->
+    <line rel="stylesheet" href="https://fonts.google.com/share?selection.family=Sacramento">
+    <!-- This link is for different ikons that we are going to use such as delete symbol etc.. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+    <title>To-do list</title>
+</head>
+ <body>
+
+    <header>
+        <h1>To-do list</h1>
+    </header>
+
+    <form>
+        <input type="text" class="todoinput">
+        <button type="submit" class="todosubmit">
+            <!--This i is commonly used to display icons and symbols in web pages-->
+            <i class="fas fa-plus-square"></i>
+        </button>
+        
+    </form>
+
+
+    <div class="todocontainer">
+        <!--The <ul> tag defines an unordered(bulleted) list.-->
+        <ul class="todolist"></ul>
+    </div>
+
+    <!--This is to like javascript with html. -->
+    <script src="./app.js"></script>
+ </body>
+</html>
